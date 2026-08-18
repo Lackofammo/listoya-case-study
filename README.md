@@ -1,3 +1,4 @@
+# ListoYA
 ### Frontend Case Study — Mobile Job & Service Marketplace
 
 A portfolio case study documenting selected frontend development work on ListoYA, a mobile marketplace designed to connect individuals, service providers, and companies through jobs, tasks, and services.
@@ -8,6 +9,10 @@ A portfolio case study documenting selected frontend development work on ListoYA
 **Development Tools:** Git · GitHub · Figma · Postman · VS Code
 
 ---
+### Visual Preview
+<img width="300" alt="ListoYA Login Screen" src="https://github.com/user-attachments/assets/4b273025-2418-49e2-9278-1a06b9f44a67" />
+<img width="300" alt="ListoYa Home Screen" src="https://github.com/user-attachments/assets/0f5ed25a-df78-466b-960e-da1734024fd2" />
+
 
 ## Overview
 
@@ -28,6 +33,57 @@ This case study highlights selected frontend areas I worked on during the develo
 ## My Contributions
 
 This section focuses on selected frontend areas I worked on and can discuss in more technical detail.
+# Role & Ownership Logic
+
+Worked on conditional UI behavior based on:
+
+-Authenticated user
+-Account type
+-Content ownership
+-Content status
+-Application status
+
+One example involved ensuring that editing actions were only available when the authenticated user owned the corresponding content.
+
+Authenticated User
+        +
+Content Owner
+        ↓
+Ownership Check
+        ↓
+Available UI Actions
+
+# REST API Integration
+
+Worked on selected frontend flows that retrieve and update application data through RESTful APIs.
+
+This included working with:
+
+-Data fetching and updates
+-Backend responses
+-Loading states
+-Error states
+-Updating the interface after user actions
+User Action
+    ↓
+Frontend Handler
+    ↓
+REST API Request
+    ↓
+Backend Response
+    ↓
+State / UI Update
+
+# Reusable UI Components
+
+Worked with reusable UI components for selected marketplace and profile interfaces, including:
+
+-Service cards
+-Profile interfaces
+-Action buttons
+-Status-based controls
+
+This gave me practical experience working with component-based development, frontend state, conditional rendering, and shared UI behavior.
 
 ### Frontend UI & User Flows
 
@@ -40,28 +96,28 @@ Worked on selected frontend flows related to:
 - Services
 - Marketplace interactions
 
-### Reusable Components
+## Development Experience
 
-Worked with reusable UI components for selected marketplace and profile interfaces, including:
+During the project, I worked with:
 
-- Service cards
-- Profile interfaces
-- Action buttons
-- Status-based controls
+-JavaScript and TypeScript
+-React Native and Expo
+-ES Module import / export
+-RESTful API integration
+-Component-based UI development
+-Git feature branches and commits
+-Pull / rebase workflows
+-Basic merge conflict resolution
 
-### Visual Preview
-<img width="300" alt="ListoYA Login Screen" src="https://github.com/user-attachments/assets/4b273025-2418-49e2-9278-1a06b9f44a67" />
-<img width="300" alt="ListoYa Home Screen" src="https://github.com/user-attachments/assets/0f5ed25a-df78-466b-960e-da1734024fd2" />
+## What I Learned
 
+Working on ListoYA gave me hands-on experience with a larger frontend application involving interconnected user flows, reusable components, REST APIs, role-based interfaces, and team-based Git development.
 
-### Role & Ownership Logic
+I am continuing to strengthen my understanding of:
 
-Worked on conditional UI behavior based on:
-
-- Authenticated user
-- Account type
-- Content ownership
-- Content status
-- Application status
-
-One example involved ensuring that editing actions were only available when the authenticated user owned the corresponding content.
+-JavaScript fundamentals
+-ES Modules
+-React concepts
+-TypeScript
+-REST API integration
+-Modern web frontend development
