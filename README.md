@@ -1,5 +1,3 @@
-<img width="631" height="1400" alt="image" src="https://github.com/user-attachments/assets/502572ae-13e5-4c85-a9b4-41dbc2219dfa" /># ListoYA
-
 ### Frontend Case Study — Mobile Job & Service Marketplace
 
 A portfolio case study documenting selected frontend development work on ListoYA, a mobile marketplace designed to connect individuals, service providers, and companies through jobs, tasks, and services.
