@@ -45,7 +45,7 @@ Worked on conditional UI behavior based on:
  - Application status
 
 One example involved ensuring that editing actions were only available when the authenticated user owned the corresponding content.
-
+```
 Authenticated User
         +
 Content Owner
@@ -53,7 +53,7 @@ Content Owner
 Ownership Check
         ↓
 Available UI Actions
-
+```
 ### REST API Integration
 
 Worked on selected frontend flows that retrieve and update application data through RESTful APIs.
