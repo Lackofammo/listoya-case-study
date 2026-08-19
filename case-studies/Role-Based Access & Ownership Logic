@@ -1,1 +1,36 @@
+### Role-Based Access & Ownership Logic
+ListoYA supports two primary account types with different capabilities and interface behavior:
 
+#### Persona
+
+Persona users can:
+
+ - Create social posts
+ - Offer services
+ - Create tareas
+ - Manage their own profiles and published content
+
+#### Empresa
+
+Empresa users can:
+
+ - Publish job opportunities
+ - Offer services
+ - Create anuncios
+ - Manage company profiles and published content
+
+The frontend uses account type, authentication state, and content ownership to determine which actions and interfaces should be available to each user.
+
+```
+Authenticated User
+        +
+Account Type
+        +
+Content Type
+        +
+Content Owner
+        ↓
+Permission / Ownership Check
+        ↓
+Available UI Actions
+```
