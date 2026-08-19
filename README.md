@@ -1,5 +1,5 @@
 # ListoYA
-### Frontend Case Study — Mobile Job & Service Marketplace
+## Frontend Case Study — Mobile Job & Service Marketplace
 
 A portfolio case study documenting selected frontend development work on ListoYA, a mobile marketplace designed to connect individuals, service providers, and companies through jobs, tasks, and services.
 
@@ -14,34 +14,35 @@ A portfolio case study documenting selected frontend development work on ListoYA
 <img width="300" alt="ListoYa Home Screen" src="https://github.com/user-attachments/assets/0f5ed25a-df78-466b-960e-da1734024fd2" />
 
 
-## Overview
+### Overview
 
 ListoYA supports multiple account types with different interfaces, permissions, and user flows.
 
 Users can:
 
-- Discover jobs, tasks, and services
-- Create and manage profiles
-- Publish and manage content
-- Interact with individuals and companies
-- Apply to opportunities and manage related activities
+ - Discover jobs, tasks, and services
+ - Create and manage profiles
+ - Publish and manage content
+ - Interact with individuals and companies
+ - Apply to opportunities and manage related activities
 
 This case study highlights selected frontend areas I worked on during the development of ListoYA.
 
 ---
 
-## My Contributions
+### My Contributions
 
 This section focuses on selected frontend areas I worked on and can discuss in more technical detail.
-# Role & Ownership Logic
+
+### Role & Ownership Logic
 
 Worked on conditional UI behavior based on:
 
--Authenticated user
--Account type
--Content ownership
--Content status
--Application status
+ - Authenticated user
+ - Account type
+ - Content ownership
+ - Content status
+ - Application status
 
 One example involved ensuring that editing actions were only available when the authenticated user owned the corresponding content.
 
@@ -53,17 +54,17 @@ Ownership Check
         ↓
 Available UI Actions
 
-# REST API Integration
+### REST API Integration
 
 Worked on selected frontend flows that retrieve and update application data through RESTful APIs.
 
 This included working with:
 
--Data fetching and updates
--Backend responses
--Loading states
--Error states
--Updating the interface after user actions
+- Data fetching and updates
+- Backend responses
+- Loading states
+- Error states
+- Updating the interface after user actions
 User Action
     ↓
 Frontend Handler
@@ -89,35 +90,35 @@ This gave me practical experience working with component-based development, fron
 
 Worked on selected frontend flows related to:
 
-- Authentication and onboarding
-- Persona / Empresa account experiences
-- Profiles
-- Jobs and tasks
-- Services
-- Marketplace interactions
+ - Authentication and onboarding
+ - Persona / Empresa account experiences
+ - Profiles
+ - Jobs and tasks
+ - Services
+ - Marketplace interactions
 
-## Development Experience
+### Development Experience
 
 During the project, I worked with:
 
--JavaScript and TypeScript
--React Native and Expo
--ES Module import / export
--RESTful API integration
--Component-based UI development
--Git feature branches and commits
--Pull / rebase workflows
--Basic merge conflict resolution
+ - JavaScript and TypeScript
+ - React Native and Expo
+ - ES Module import / export
+ - RESTful API integration
+ - Component-based UI development
+ - Git feature branches and commits
+ - Pull / rebase workflows
+ - Basic merge conflict resolution
 
-## What I Learned
+### What I Learned
 
 Working on ListoYA gave me hands-on experience with a larger frontend application involving interconnected user flows, reusable components, REST APIs, role-based interfaces, and team-based Git development.
 
 I am continuing to strengthen my understanding of:
 
--JavaScript fundamentals
--ES Modules
--React concepts
--TypeScript
--REST API integration
--Modern web frontend development
+- JavaScript fundamentals
+- ES Modules
+- React concepts
+- TypeScript
+- REST API integration
+- Modern web frontend development
