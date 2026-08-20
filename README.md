@@ -1,5 +1,20 @@
 # ListoYA
 <img width="1600" height="474" alt="app_image_all" src="https://github.com/user-attachments/assets/c3fc787d-5faf-45b8-9a89-e7b264242bdd" />
+
+## Overview
+
+ListoYA supports multiple account types with different interfaces, permissions, and user flows.
+
+Users can:
+
+ - Discover jobs, tasks, and services
+ - Create and manage profiles
+ - Publish and manage content
+ - Interact with individuals and companies
+ - Apply to opportunities and manage related activities
+
+This case study highlights selected frontend areas I worked on during the development of ListoYA.
+
 ## Frontend Case Study — Mobile Job & Service Marketplace
 
 A portfolio case study documenting selected frontend development work on ListoYA, a mobile marketplace designed to connect individuals, service providers, and companies through jobs, tasks, and services.
@@ -14,20 +29,6 @@ A portfolio case study documenting selected frontend development work on ListoYA
 <img width="300" alt="ListoYA Login Screen" src="https://github.com/user-attachments/assets/4b273025-2418-49e2-9278-1a06b9f44a67" />
 <img width="300" alt="ListoYa Home Screen" src="https://github.com/user-attachments/assets/0f5ed25a-df78-466b-960e-da1734024fd2" />
 
-
-### Overview
-
-ListoYA supports multiple account types with different interfaces, permissions, and user flows.
-
-Users can:
-
- - Discover jobs, tasks, and services
- - Create and manage profiles
- - Publish and manage content
- - Interact with individuals and companies
- - Apply to opportunities and manage related activities
-
-This case study highlights selected frontend areas I worked on during the development of ListoYA.
 
 ---
 
